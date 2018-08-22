@@ -1,0 +1,23 @@
+debug: true
+system:
+  result:
+    debug: false
+ali:
+  sdk:
+    app-id: 2017101109248069
+    private-key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq1KrsID1IHqMzbOlVl3zWHG/XoC/HZHvR7L8YELbPdaJzOyQDe03gLxpVnGjM5hDo9pKM8Ta0eRL+B0S4yPoZLCIrCJrdlhfZUEQL/q2KTxKU32FH5TYP7h2ss5Co58so+Mb1ZZQ0MIv/InfPda71kdVlJVTxT4+75LGOf3Cmt3gUB4oGVbn8oJPE1duh1ZdfI7cqh2chVyTLmAh2eK2GNIJHHG+3Sa9Adj0AzjLj90cY6HtXfRLn2TEFE2sSkNa6cdvTP+qpmGND6GxqELDpoWxt8M1LR+lK7ODuHhlu1BHBlqH328eyl6UuLoU4BYNs+JWjiZWXN2q7f56A40XBQIDAQAB
+    ali-public-key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlJgIgcHY4VbI/IsqZdS/l4+QN34/69YUqCK+S3VrDPRU4ocIzJWk5SvgjBYG1QJJ55geisTfuJTYOToAr4Rutu8MGfDVDYbX8pDv4/pkVmrJKYqnR6ip9JslPI3+hR36sosDeIL8ZmNun2VaEruBZrGxezP8JTIBk7NtRwnXhOrBm1LbCsTkU4mF4Tkg7G9uHaxelHRQonIiT5tzz5J9QmxUrcJh1laBSUObMeqyDKomEZZ3tX5y2jCg26CabBe2dr/iGai4uGO/H7PS90DLeyN3DDciI1cW4plgX9l/IJ5Cc/91Qflxkd7zn2iuemYR5X2ia71//T3DNVyaamRT8wIDAQAB
+    gateway-url: https://openapi.alipay.com/gateway.do
+    sign-type: RSA
+    format: JSON
+    charset: UTF-8
+    encrypt-key:
+    encrypt-type:
+    return-url: www.baidu.com
+
+spring:
+    datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://172.16.4.12:3306/agenthouse?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&autoReconnect=true&useSSL=false&serverTimezone=GMT%2b8&autoReconnect=true
+      username: root
+      password:

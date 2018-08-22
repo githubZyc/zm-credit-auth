@@ -1,0 +1,81 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.guoanjia.common.credit.function.config.AliProperties",
+      "name": "ali.sdk",
+      "type": "com.guoanjia.common.credit.function.config.AliProperties"
+    },
+    {
+      "sourceType": "com.guoanjia.common.credit.config.SystemProperties",
+      "name": "system",
+      "type": "com.guoanjia.common.credit.config.SystemProperties"
+    },
+    {
+      "sourceType": "com.guoanjia.common.credit.config.SystemProperties",
+      "name": "system.result",
+      "sourceMethod": "getResult()",
+      "type": "com.guoanjia.common.credit.config.SystemProperties$ResultConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ali.sdk.app-id",
+      "type": "java.lang.String",
+      "sourceType": "com.guoanjia.common.credit.function.config.AliProperties",
+      "description": "Alipay App ID assigned to developer."
+    },
+    {
+      "name": "ali.sdk.private-key",
+      "type": "java.lang.String",
+      "sourceType": "com.guoanjia.common.credit.function.config.AliProperties",
+      "description": "Alipay App Private Key."
+    },
+    {
+      "name": "ali.sdk.ali-public-key",
+      "type": "java.lang.String",
+      "sourceType": "com.guoanjia.common.credit.function.config.AliProperties",
+      "description": "Alipay Public Key."
+    },
+    {
+      "name": "ali.sdk.gateway-url",
+      "type": "java.lang.String",
+      "sourceType": "com.guoanjia.common.credit.function.config.AliProperties",
+      "defaultValue": "https://openapi.alipay.com/gateway.do",
+      "description": "Alipay interface gateway."
+    },
+    {
+      "name": "ali.sdk.sign-type",
+      "type": "java.lang.String",
+      "sourceType": "com.guoanjia.common.credit.function.config.AliProperties",
+      "defaultValue": "RSA",
+      "description": "The type of signature algorithm used by the merchant to generate the signature string. RSA2 and RSA are currently supported. RSA2 is recommended."
+    },
+    {
+      "name": "ali.sdk.format",
+      "type": "java.lang.String",
+      "sourceType": "com.guoanjia.common.credit.function.config.AliProperties",
+      "defaultValue": "JSON",
+      "description": "Alipay interface data format, the current version only supports JSON. Default: JSON."
+    },
+    {
+      "name": "ali.sdk.charset",
+      "type": "java.lang.String",
+      "sourceType": "com.guoanjia.common.credit.function.config.AliProperties",
+      "defaultValue": "UTF-8",
+      "description": "Requested encoding format, such as utf-8, gbk, gb2312, etc."
+    },
+    {
+      "name": "ali.sdk.encrypt-key",
+      "type": "java.lang.String",
+      "sourceType": "com.guoanjia.common.credit.function.config.AliProperties",
+      "description": "Encryption key."
+    },
+    {
+      "name": "ali.sdk.encrypt-type",
+      "type": "java.lang.String",
+      "sourceType": "com.guoanjia.common.credit.function.config.AliProperties",
+      "description": "Encryption type."
+    }
+  ]
+}

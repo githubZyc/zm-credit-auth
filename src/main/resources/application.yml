@@ -1,0 +1,40 @@
+spring:
+  profiles:
+    active: dev
+  mvc:
+    throw-exception-if-no-handler-found: true
+  aop:
+    proxy-target-class: true
+    auto: true
+  application:
+    name: Common-Credit
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+      force-request: true
+      force-response: true
+  info:
+    build:
+      location: classpath:META-INF/build-info.properties
+
+
+server:
+  port: 28083
+  servlet:
+    context-path: /common-credit
+    application-display-name: Common-Credit
+    path: /
+  address: 0.0.0.0
+  compression:
+    enabled: true
+    mime-types: application/javascript,image/jpg,image/png,image/gif
+  undertow:
+    accesslog:
+      dir: logs/access
+      enabled: true
+      pattern: combined
+      prefix: access_log
+      rotate: true
+      suffix: .log

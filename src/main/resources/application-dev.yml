@@ -1,0 +1,26 @@
+debug: false
+
+system:
+  result:
+    debug: false
+
+# 测试参数为沙箱数据
+ali:
+  sdk:
+    app-id: 2017101109248069
+    private-key: MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCFlNSbdAJXHWOHLXSU/RCj0jzS84GVPLa7hDQ89va/Xl8/8XF2Yi9eljsDuwDUh2eNZndOcEvfoAIdE4HGWYN+YsiLrJI7Mr9EC4Vj/JYWgHW3eHShaf/lAITWnRiFITXEFV0XzOzx2l8hCyXm7Nza8Qbsn3ffpBkZjro+8cjfMu1h3hqiI3ahExRQj61yRDnzPLsT+TBm6MyjeCWF/mtut/uZwZYuzvdOOy2N2NLTM4EKNW/+5lh+ooEbePW2MSPG2BMEmOYpVfS3eKM7N6XtR6JX0ua9NwfUxDcv4yh+u0pOgfDSOmYou66i6k47m7qmoxwObN7keEbOyKkLN0DVAgMBAAECggEAcfNuElY6ENpPJudNxjLC2RzlKgbzib1LHFdAwKjkAIeetUtfwN8tDYEWQq5pnOMNIQBB0jXVY6R5aRhU4kFF/LCD5zKFY958bq1tUsgLuJJI2QP2aiOkWVPB/dnxKtATr3uR+FWl4wKnl+aMpJt2I4bsozm95pdzmeu5USyscEkjXpLJayWxuK3RtPUgNQPyv51QZO9ZrBvSJzyGSxFHoWfv+kTSg/PbR3Q1QuzRSXCamgLmxAZ9Nean6YsU2QNZXxD80BudLOghrKASHFWcHij1Bq28WY5w7tERj/vF1FiAhoSXsAimynvK9FZl74r6hgA1oBHfmfjROOyzfDJqAQKBgQDDdseK52jFsWFRfWwSYD4sXcn9416TZtZmscD0kCYA4bPzfftY2bPj2ZNNwpYvdaiHDdlNZjQxwBRo6flbRE0YYY2A4bVrUk4MRjOUUPEOKS4XvY4ZmVoUQreZJHqVAhh4/O5ZhrdNfkP6gm0XPw997oV0Incv82nm0rTrXpMjlQKBgQCu87uXwJg3MboxqcuGlTI+Gyh3Op/Nn7Fm9w+WsRsMXU2oUlXfqJTR4suDxqvymeoX/D49NxdFVxhbbqJdvAtJKCiRH7Vvf+vFb61ptT3hnCDaeSPTtbRLuyRq+TR5zn/5yxni5wbFBMGDKppPKh1uc/wCpFExo7HVr/tSvSBYQQKBgQCqH+rjcjBVyOJsO97hS5UxplwVt1zsrJg1f8by1bfOEqQ+bMtkdO9GhGvaRV/UZPLOwXX+ENOi7YyWF/cpwZPcgaPYphryEwvNURi5oY19hsgQb7KLg1bMxZjpGL/8i3tjarnFgCRwtVJTakuq7P7926maABl+ybzF42UGayVj1QKBgQCFaha/Rb6OMJy1rK8pJXNYCyvTqGAe1U3aoENB/jMLPcevuYIE+jDq0ZGzHvkXGyp6OgBYfD+BwEYxy2+EHZdZpYcyDEU3Dw0D1gMfHnhfKMmg8UpR8znXmpHOBdZvoPrUyX4nG1h9PAA5/24HOq2RAl/Gv/mu6g7+TqJQWStmQQKBgCDcTQngDt5X8BJpZWMwKeV0gPNbA3ZMr7hiPFsaP2CL/GnyWp1YBP5skA/IXc3hgg6X4UY1R/GOySFsoqmicV73ASDAtMda6K7VlRoPbWxcxv9mspxEKtD5BSDzbskSyAuSZGLzxtx3wXg/q2IfDn/k9v9hpqkTVF27dZg3zFK3
+    ali-public-key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlJgIgcHY4VbI/IsqZdS/l4+QN34/69YUqCK+S3VrDPRU4ocIzJWk5SvgjBYG1QJJ55geisTfuJTYOToAr4Rutu8MGfDVDYbX8pDv4/pkVmrJKYqnR6ip9JslPI3+hR36sosDeIL8ZmNun2VaEruBZrGxezP8JTIBk7NtRwnXhOrBm1LbCsTkU4mF4Tkg7G9uHaxelHRQonIiT5tzz5J9QmxUrcJh1laBSUObMeqyDKomEZZ3tX5y2jCg26CabBe2dr/iGai4uGO/H7PS90DLeyN3DDciI1cW4plgX9l/IJ5Cc/91Qflxkd7zn2iuemYR5X2ia71//T3DNVyaamRT8wIDAQAB
+    gateway-url: https://openapi.alipay.com/gateway.do
+    sign-type: RSA2
+    format: JSON
+    charset: UTF-8
+    encrypt-key:
+    encrypt-type:
+    return-url: www.baidu.com
+
+spring:
+    datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://172.16.4.12:3306/agenthouse?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&autoReconnect=true&useSSL=false&serverTimezone=GMT%2b8&autoReconnect=true
+      username: root
+      password:
